@@ -9,10 +9,10 @@ El objetivo final es **identificar la sucursal con el rendimiento más bajo** y 
 ## 📊 Los Datos
 El análisis se basa en **cuatro conjuntos de datos independientes**, cada uno correspondiente a las transacciones de una sucursal:
 base-de-datos-challenge1-latam/
-*├── tienda_1.csv
-*├── tienda_2.csv
-*├── tienda_3.csv
-*└── tienda_4.csv
+- tienda_1.csv
+- tienda_2.csv
+- tienda_3.csv
+- tienda_4.csv
 
 
 Cada archivo fue cargado y consolidado en un único **DataFrame de pandas**, agregando una columna `tienda` para segmentar correctamente los registros.
