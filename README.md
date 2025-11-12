@@ -9,10 +9,10 @@ El objetivo final es **identificar la sucursal con el rendimiento más bajo** y 
 ## 📊 Los Datos
 El análisis se basa en **cuatro conjuntos de datos independientes**, cada uno correspondiente a las transacciones de una sucursal:
 base-de-datos-challenge1-latam/
-├── tienda_1.csv
-├── tienda_2.csv
-├── tienda_3.csv
-└── tienda_4.csv
+*├── tienda_1.csv
+*├── tienda_2.csv
+*├── tienda_3.csv
+*└── tienda_4.csv
 
 
 Cada archivo fue cargado y consolidado en un único **DataFrame de pandas**, agregando una columna `tienda` para segmentar correctamente los registros.
@@ -36,10 +36,10 @@ Se calculó la **calificación promedio** de las compras (`Calificación`) para 
 Se identificaron los **5 productos más vendidos y los 5 menos vendidos** por tienda.  
 También se generaron gráficos con los **10 productos más populares**, almacenados en la carpeta:
 /graficos_top_productos/
-├── top_10_productos_Tienda_1.png
-├── top_10_productos_Tienda_2.png
-├── top_10_productos_Tienda_3.png
-└── top_10_productos_Tienda_4.png
+*├── top_10_productos_Tienda_1.png
+*├── top_10_productos_Tienda_2.png
+*├── top_10_productos_Tienda_3.png
+*└── top_10_productos_Tienda_4.png
 
 
 ### 5️⃣ Costo de Envío Promedio
@@ -50,21 +50,21 @@ Un costo elevado puede **afectar negativamente la conversión de ventas y la sat
 
 ## 🧱 Estructura del Proyecto
 .
-├── 📄 AluraStoreLatam.ipynb # Notebook principal con el código de análisis
-├── 📄 Informe_Final_AluraStore.md # Informe ejecutivo con la recomendación
-├── 📄 README.md # Este archivo
+*├── 📄 AluraStoreLatam.ipynb # Notebook principal con el código de análisis
+*├── 📄 Informe_Final_AluraStore.md # Informe ejecutivo con la recomendación
+*├── 📄 README.md # Este archivo
 │
-├── 📁 base-de-datos-challenge1-latam/
-│ ├── tienda_1.csv
-│ ├── tienda_2.csv
-│ ├── tienda_3.csv
-│ └── tienda_4.csv
+*├── 📁 base-de-datos-challenge1-latam/
+*│ ├── tienda_1.csv
+*│ ├── tienda_2.csv
+*│ ├── tienda_3.csv
+*│ └── tienda_4.csv
 │
-└── 📁 graficos_top_productos/
-├── top_10_productos_Tienda_1.png
-├── top_10_productos_Tienda_2.png
-├── top_10_productos_Tienda_3.png
-└── top_10_productos_Tienda_4.png
+*└── 📁 graficos_top_productos/
+*├── top_10_productos_Tienda_1.png
+*├── top_10_productos_Tienda_2.png
+*├── top_10_productos_Tienda_3.png
+*└── top_10_productos_Tienda_4.png
 
 
 ---
