@@ -90,5 +90,4 @@ La **recomendación final** y su **justificación detallada** se encuentran docu
 
 ## ✨ Autor
 **Proyecto desarrollado por:**  
-*Equipo de Análisis de Datos - AluraStore LATAM*  
-📅 *Noviembre de 2025*
+*Axel Edwin Serrano Ruiz*
